@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+
+    .flag{
+      background-color: #ce1126;
+      height: 600px;
+      width: 900px;
+      position: relative;
+    }
+
+    .flag > div {
+      background-color: #002868;
+      width: 100%;
+      height: 300px;
+      position: absolute;
+      top: 150px;
+    }
+
+    .flag > div > div{
+      background-color: white;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: relative;
+      left: 350px;
+      top: 50px;
+    }
+    
+    p{
+      margin: 0;
+      font-size: 5rem;
+      text-align: center;
+    }
+
+    .flag > p{
+      color: rgb(255, 255, 255);
+    }
+
+    .merah{
+      height: 500px;
+      width: 800px;
+      background-color: rgb(255, 0, 0);
+      position: relative;
+      }
+
+    .merah > p {
+      color: white;
+      position: absolute;
+      left: 250px;
+      top: 75px;
+      }
+
+    div > div {
+      height: 250px;
+      width: 800px;
+      background-color: rgb(238, 238, 238);
+      position: absolute;
+      top: 250px;
+      }
+
+   .merah div p {
+      color: red;
+      position: relative;
+      top: 75px;
+      }
+
+   p {
+      margin: 0px;
+      text-align: center;
+      font-size: 5rem;
+      }
+  </style>
+</head>
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+<br>
+  <div class="merah">
+    <p>Indonesia</p>
+        <div>
+            <p>Maju</p>
+        </div>
+    </div>
+</body>
+
+</html>
